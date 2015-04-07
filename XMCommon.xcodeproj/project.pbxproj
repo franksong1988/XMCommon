@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		864A82D31AC2386600709D5F /* UIImage+XMCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 864A82D21AC2386600709D5F /* UIImage+XMCommon.m */; };
+		864A82D91AC24ABE00709D5F /* XMTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 864A82D81AC24ABE00709D5F /* XMTools.m */; };
 		C5E58EAC1A70AC0A00734174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E58EAB1A70AC0A00734174 /* main.m */; };
 		C5E58EAF1A70AC0A00734174 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E58EAE1A70AC0A00734174 /* AppDelegate.m */; };
 		C5E58EB21A70AC0A00734174 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E58EB11A70AC0A00734174 /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		C5E58EB71A70AC0A00734174 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5E58EB61A70AC0A00734174 /* Images.xcassets */; };
 		C5E58EBA1A70AC0A00734174 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E58EB81A70AC0A00734174 /* LaunchScreen.xib */; };
 		C5E58EC61A70AC0A00734174 /* XMCommonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E58EC51A70AC0A00734174 /* XMCommonTests.m */; };
+		C5E58ED81A70AC6500734174 /* UIColor+XMCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E58ED41A70AC6500734174 /* UIColor+XMCommon.m */; };
+		C5E58ED91A70AC6500734174 /* UIView+XMCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E58ED61A70AC6500734174 /* UIView+XMCommon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		864A82D11AC2386600709D5F /* UIImage+XMCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XMCommon.h"; sourceTree = "<group>"; };
+		864A82D21AC2386600709D5F /* UIImage+XMCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XMCommon.m"; sourceTree = "<group>"; };
+		864A82D71AC24ABE00709D5F /* XMTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTools.h; sourceTree = "<group>"; };
+		864A82D81AC24ABE00709D5F /* XMTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTools.m; sourceTree = "<group>"; };
 		C5E58EA61A70AC0A00734174 /* XMCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E58EAA1A70AC0A00734174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5E58EAB1A70AC0A00734174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +48,13 @@
 		C5E58EBF1A70AC0A00734174 /* XMCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E58EC41A70AC0A00734174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5E58EC51A70AC0A00734174 /* XMCommonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMCommonTests.m; sourceTree = "<group>"; };
+		C5E58ED01A70AC6500734174 /* XMCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMCommon.h; sourceTree = "<group>"; };
+		C5E58ED11A70AC6500734174 /* XMCommonConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMCommonConfig.h; sourceTree = "<group>"; };
+		C5E58ED31A70AC6500734174 /* UIColor+XMCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XMCommon.h"; sourceTree = "<group>"; };
+		C5E58ED41A70AC6500734174 /* UIColor+XMCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XMCommon.m"; sourceTree = "<group>"; };
+		C5E58ED51A70AC6500734174 /* UIView+XMCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMCommon.h"; sourceTree = "<group>"; };
+		C5E58ED61A70AC6500734174 /* UIView+XMCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMCommon.m"; sourceTree = "<group>"; };
+		C5E58ED71A70AC6500734174 /* XMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMExtension.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,7 @@
 		C5E58EA81A70AC0A00734174 /* XMCommon */ = {
 			isa = PBXGroup;
 			children = (
+				C5E58ECF1A70AC6500734174 /* XMCommon */,
 				C5E58EAD1A70AC0A00734174 /* AppDelegate.h */,
 				C5E58EAE1A70AC0A00734174 /* AppDelegate.m */,
 				C5E58EB01A70AC0A00734174 /* ViewController.h */,
@@ -117,6 +133,32 @@
 				C5E58EC41A70AC0A00734174 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5E58ECF1A70AC6500734174 /* XMCommon */ = {
+			isa = PBXGroup;
+			children = (
+				864A82D71AC24ABE00709D5F /* XMTools.h */,
+				864A82D81AC24ABE00709D5F /* XMTools.m */,
+				C5E58ED01A70AC6500734174 /* XMCommon.h */,
+				C5E58ED11A70AC6500734174 /* XMCommonConfig.h */,
+				C5E58ED21A70AC6500734174 /* XMExtension */,
+			);
+			path = XMCommon;
+			sourceTree = "<group>";
+		};
+		C5E58ED21A70AC6500734174 /* XMExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C5E58ED31A70AC6500734174 /* UIColor+XMCommon.h */,
+				C5E58ED41A70AC6500734174 /* UIColor+XMCommon.m */,
+				C5E58ED51A70AC6500734174 /* UIView+XMCommon.h */,
+				C5E58ED61A70AC6500734174 /* UIView+XMCommon.m */,
+				864A82D11AC2386600709D5F /* UIImage+XMCommon.h */,
+				864A82D21AC2386600709D5F /* UIImage+XMCommon.m */,
+				C5E58ED71A70AC6500734174 /* XMExtension.h */,
+			);
+			path = XMExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +261,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5E58ED91A70AC6500734174 /* UIView+XMCommon.m in Sources */,
 				C5E58EB21A70AC0A00734174 /* ViewController.m in Sources */,
+				864A82D91AC24ABE00709D5F /* XMTools.m in Sources */,
 				C5E58EAF1A70AC0A00734174 /* AppDelegate.m in Sources */,
 				C5E58EAC1A70AC0A00734174 /* main.m in Sources */,
+				C5E58ED81A70AC6500734174 /* UIColor+XMCommon.m in Sources */,
+				864A82D31AC2386600709D5F /* UIImage+XMCommon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +392,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XMCommon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XMCommon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +462,7 @@
 				C5E58ECB1A70AC0A00734174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5E58ECC1A70AC0A00734174 /* Build configuration list for PBXNativeTarget "XMCommonTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +471,7 @@
 				C5E58ECE1A70AC0A00734174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
